@@ -1,0 +1,6 @@
+// Example using jQuery for seat selection
+$('.seat.available').click(function() {
+    var seatNumber = $(this).data('seat-number');
+    // Perform actions like highlighting the seat or adding it to a list for booking
+    console.log('Selected seat: ' + seatNumber);
+});
